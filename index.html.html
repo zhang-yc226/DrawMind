@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .demo{
+        background-color: aqua;
+        display: inline-block;
+       
+        border-style: solid;
+        border-width: 2px;
+        border-color: brown;
+        padding: 100PX;
+        margin: 50px;
+    }
+    .demo1{
+        background-color: rgb(78, 90, 90);
+        display: inline-block;
+        border-style: solid;
+        border-width: 2px;
+        padding: 200px;
+
+    }
+    /* .demo2{
+        background-color:wheat;
+        display: inline-block;
+        border:1px  solid yellowgreen;
+        padding: 20px;
+
+    }也可以实现 */
+    .demo1>.demo2{
+        background-color:wheat;
+        display: inline-block;
+        border:1px  solid yellowgreen;
+        padding: 20px;
+    }
+    
+</style>
+<body>
+    <div class="demo">
+        <h2>上传照片</h2>
+    </div>
+    <br>
+   
+    <div class="demo1">
+        <div class="demo2">拍照上传</div>
+    </div>
+   
+</body>
+</html>
